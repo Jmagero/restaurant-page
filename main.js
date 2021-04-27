@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Hello world!");const e=document.getElementById("content");let t=document.createElement("div");t.classList.add("tabs");let n=["home","menu","contact"];for(let e=0;e<n.length;e++){let l=document.createElement("button");l.classList.add("tablinks"),l.innerText=n[e],t.appendChild(l)}e.appendChild(t)})();
