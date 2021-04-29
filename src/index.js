@@ -8,7 +8,7 @@ const aboutMenu = loadMenu();
 const aboutContact = createContact();
 
 // create button
-function createBtn(id, text) {
+  const createBtn = (id, text) => {
   const tablink = document.createElement('button');
   tablink.classList.add('tablinks');
   tablink.setAttribute('id', id);
@@ -17,7 +17,7 @@ function createBtn(id, text) {
 }
 
 // create nav
-function createNav() {
+  const createNav = () => {
   const nav = document.createElement('nav');
   nav.classList.add('tabs');
   const home = createBtn('home', 'home');
@@ -49,3 +49,4 @@ const contactBtn = document.getElementById('contact');
 contactBtn.addEventListener('click', () => {
   content.replaceChild(aboutContact, content.childNodes[1]);
 });
+
