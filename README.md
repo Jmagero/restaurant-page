@@ -27,8 +27,8 @@ $ git clone https://github.com/Jmagero/restaurant-page.git
 
 - Jocyline Magero
 - Github: [@jmagero](https://github.com/Jmagero)
-- Twitter: [@MagzCelyn](https://twitter.com/MagzCelyn)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Twitter: [@magero_jocyline](https://twitter.com/magero_jocyline)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jocyline-magero-9592b0145/)
 
 
 
