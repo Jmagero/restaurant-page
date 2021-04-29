@@ -1,14 +1,34 @@
+"use strict";
 
-// function addMenu() {
-//     let div = document.createElement('div')
-//     const arr = ['breakfast', 'lunch', 'dinner']
-//     let content = document.getElementById("content")
-//     div.setAttribute('id', 'theList')
-//     for( let i; i< arr.length; i++) {
-//         let li = document.createElement('li')
-//         li.innerHTML = arr[i];
-//         div.appendChild(li);
-// }
-// content.appendChild(div)
-// }
+const createFood =(name,description) => {
+    let foodItem = document.createElement('div')
+    let foodName = document.createElement('h4')
+    foodName.innerText = name
+    let foodDescr = document.createElement('p')
+    foodDescr.innerText = description
+    foodItem.appendChild(foodName)
+    foodItem.appendChild(foodDescr)
+    return foodItem
+}
 
+const createMenu = () => {
+    const foods = document.createElement('div')
+    foods.className = "foods"
+
+    foods.appendChild(
+        createFood('Pizza','Helo pizza'))
+    foods.appendChild(createFood('Pizza','Helo pizza'))
+    return foods
+
+}
+
+const loadMenu = () => {
+    const menuContent = document.createElement('div')
+    menuContent.setAttribute('id',"menucontent");
+    menuContent.innerHTML = createMenu().innerHTML;
+    console.log(menuContent);
+    return menuContent;
+    
+}
+
+export default loadMenu;
