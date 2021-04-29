@@ -9,7 +9,7 @@ This is a javascript projects that puts in practice DOM manipulation by dynamica
 
 ## Live Demo
 
-[Live Demo Link](https://jmagero.github.io/library/)
+[Live Demo Link](https://jmagero.github.io/restaurant-page/)
 
 
 ## Getting Started
