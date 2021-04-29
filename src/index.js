@@ -53,10 +53,3 @@ const contactBtn = document.getElementById('contact')
 contactBtn.addEventListener('click', (e) =>{
     content.replaceChild(aboutContact,content.childNodes[1])
 })
-
-
-
-
-
-
-
