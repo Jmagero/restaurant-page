@@ -31,15 +31,14 @@ function createNav(){
     return nav
 }
 
-
+// Append tabs
 content.appendChild(createNav());
+
+//Append home page
 content.appendChild(aboutus);
 
 
-// const about = loadHome();
-
-
-
+// Add event listeners
 const homebtn = document.getElementById('home')
 homebtn.addEventListener('click', (e) => {
     content.replaceChild(aboutus,content.childNodes[1])
