@@ -1,8 +1,14 @@
 /* Style the tab */
+
+body {
+  background-image: url(./restaurant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .tabs {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    display:  flex;
+    justify-content: space-around;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -14,6 +20,10 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
   }
   
   /* Change background color of buttons on hover */
@@ -27,9 +37,32 @@
   }
   
   /* Style the tab content */
-  .tabcontent {
-    display: none;
+  #tabcontent { 
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    color: white;
+    text-align: center;
     border-top: none;
+  }
+
+  .title {
+    font-size: 100px;
+  }
+
+  .active {
+    display: block;
+  } */
+
+  #homecontent {
+    color: #fff;
+    text-align: center;
+    /* font-size: 100px; */
+  }
+
+  .description {
+    font-size:  50px;
+  }
+
+  #menucontent {
+    text-align: center;
+    color: white;
   }
