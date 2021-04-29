@@ -1,5 +1,6 @@
 # Restaurant Page
-This is a javascript projects that puts in practice DOM manipulation by dynamically rendering a simple restaurant homepage!
+
+- This is a javascript projects that puts in practice DOM manipulation by dynamically rendering a simple restaurant homepage!
  
 ## Built With
 
@@ -18,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 
 $ cd
 
-$ git clone https://github.com/Jmagero/library.git
+$ git clone https://github.com/Jmagero/restaurant-page.git
 
 
 
@@ -43,7 +44,7 @@ Make your contributions
 Push your branch up to your forked repository
 Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-Feel free to check the [issues page](https://github.com/Jmagero/library.git/issues).
+Feel free to check the [issues page](https://github.com/Jmagero/restaurant-page/issues).
 
 ## Show your support
 
