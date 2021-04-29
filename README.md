@@ -1,7 +1,6 @@
-# Restaurant-page Project
-
-> 
-
+# Restaurant Page
+This is a javascript projects that puts in practice DOM manipulation by dynamically rendering a simple restaurant homepage!
+ 
 ## Built With
 
 - Javascript,
@@ -10,7 +9,7 @@
 
 ## Live Demo
 
-
+[Live Demo Link](https://jmagero.github.io/library/)
 
 
 ## Getting Started
@@ -19,11 +18,9 @@ To get a local copy up and running follow these simple example steps.
 
 $ cd
 
-$ git clone 
+$ git clone https://github.com/Jmagero/library.git
 
 
-
-## Authors
 
 👤 **Author**
 
@@ -46,6 +43,7 @@ Make your contributions
 Push your branch up to your forked repository
 Open a Pull Request with a detailed description to the development branch of the original project for a review
 
+Feel free to check the [issues page](https://github.com/Jmagero/library.git/issues).
 
 ## Show your support
 
