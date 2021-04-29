@@ -8,16 +8,16 @@ const aboutMenu = loadMenu();
 const aboutContact = createContact();
 
 // create button
-  const createBtn = (id, text) => {
+const createBtn = (id, text) => {
   const tablink = document.createElement('button');
   tablink.classList.add('tablinks');
   tablink.setAttribute('id', id);
   tablink.innerText = text;
   return tablink;
-}
+};
 
 // create nav
-  const createNav = () => {
+const createNav = () => {
   const nav = document.createElement('nav');
   nav.classList.add('tabs');
   const home = createBtn('home', 'home');
@@ -26,7 +26,7 @@ const aboutContact = createContact();
 
   nav.append(home, menu, contact);
   return nav;
-}
+};
 
 // Append tabs
 content.appendChild(createNav());
@@ -49,4 +49,3 @@ const contactBtn = document.getElementById('contact');
 contactBtn.addEventListener('click', () => {
   content.replaceChild(aboutContact, content.childNodes[1]);
 });
-
