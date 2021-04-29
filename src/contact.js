@@ -1,4 +1,3 @@
-
 const createContact =() => {
     let contactDiv = document.createElement('div')
     let  title = document.createElement('h3')

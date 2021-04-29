@@ -26,9 +26,7 @@ const loadMenu = () => {
     const menuContent = document.createElement('div')
     menuContent.setAttribute('id',"menucontent");
     menuContent.innerHTML = createMenu().innerHTML;
-    console.log(menuContent);
-    return menuContent;
-    
+    return menuContent;  
 }
 
 export default loadMenu;

@@ -8,7 +8,6 @@ const createHome =() => {
     title.innerHTML = "Indulge yourself"
     para.innerHTML = " Eat, Drink Be Merry"
     about.append(title,para)
-    console.log(about);
     return about;
 }
 
